@@ -13,11 +13,51 @@ export const SoundSectionList = [
     ]
   },
   {
+    header: "B",
+    data: [
+      {
+        title: "Bubbles",
+        url: require("./Bubbles.mp3")
+      },
+      {
+        title: "Background Music",
+        url: require("./BackgroundMusic.mp3")
+      }
+    ]
+  },
+  {
     header: "D",
     data: [
       {
         title: "Deamn",
         url: require("./DEAMN.mp3")
+      }
+    ]
+  },
+  {
+    header: "F",
+    data: [
+      {
+        title: "Faraway Land",
+        url: require("./FarawayLandMusic.mp3")
+      }
+    ]
+  },
+  {
+    header: "R",
+    data: [
+      {
+        title: "Rocket Launch Countdown",
+        url: require("./RocketLaunch.mp3")
+      }
+    ]
+  },
+  {
+    header: "S",
+    data: [
+      {
+        title: "Success",
+        url: require("./SuccessSound.mp3")
       }
     ]
   },
